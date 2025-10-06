@@ -17,20 +17,7 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Navigation Links - Left/Center */}
-          <div className="hidden md:flex items-center space-x-8 flex-1">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className="text-foreground hover:text-primary transition-[var(--transition-smooth)] font-medium"
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
-
-          {/* Logo - Right */}
+          {/* Logo - Left */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
@@ -40,6 +27,19 @@ const Navigation = () => {
                 FinFlow
               </span>
             </Link>
+          </div>
+
+          {/* Navigation Links - Right */}
+          <div className="hidden md:flex items-center space-x-8">
+            {navItems.map((item) => (
+              <Link
+                key={item.name}
+                to={item.href}
+                className="text-foreground hover:text-primary transition-[var(--transition-smooth)] font-medium"
+              >
+                {item.name}
+              </Link>
+            ))}
           </div>
 
           {/* Mobile menu button */}

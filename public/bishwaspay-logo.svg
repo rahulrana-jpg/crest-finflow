@@ -17,7 +17,7 @@
   
   <!-- Lock/Security Icon -->
   <rect x="90" y="90" width="20" height="22" rx="2" fill="url(#lockGradient)"/>
-  <path d="M95 90 L95 82 C95 78.686 97.686 76 101 76 L99 76 C95.686 76 93 78.686 93 82 L93 90" 
+  <path d="M95 90 L95 82 C95 78.686 97.686 76 101 76 C104.314 76 107 78.686 107 82 L107 90" 
         stroke="url(#greenAccent)" 
         stroke-width="2.5" 
         fill="none" 

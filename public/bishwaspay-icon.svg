@@ -14,7 +14,7 @@
   
   <!-- Lock/Security Icon -->
   <rect x="52" y="55" width="16" height="18" rx="1.5" fill="url(#lockGradient)"/>
-  <path d="M56 55 L56 48 C56 45.2 58.2 43 61 43 L59 43 C56.2 43 54 45.2 54 48 L54 55" 
+  <path d="M56 55 L56 48 C56 45.2 58.2 43 61 43 C63.8 43 66 45.2 66 48 L66 55" 
         stroke="#4CAF50" 
         stroke-width="2" 
         fill="none" 

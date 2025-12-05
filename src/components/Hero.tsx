@@ -14,20 +14,20 @@ const Hero = () => {
           <div className="space-y-8 z-10">
             <div className="inline-block">
               <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                Trusted by 10,000+ businesses
+                Trusted escrow platform - Secure & Transparent
               </span>
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              The Future of{" "}
+              Secure Escrow{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Financial Services
+                Payment Solutions
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Transform your business with our cutting-edge fintech solutions. 
-              Secure, fast, and built for the modern digital economy.
+              Trust-based escrow platform built with transparency and security. 
+              Protect your transactions with BishwasPay - where trust meets technology.
             </p>
 
             {/* Feature highlights */}

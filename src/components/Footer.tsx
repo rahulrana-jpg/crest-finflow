@@ -8,16 +8,18 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">F</span>
-              </div>
+            <Link to="/" className="flex items-center space-x-3">
+              <img 
+                src="/bishwaspay-icon.svg" 
+                alt="BishwasPay Logo" 
+                className="w-10 h-10"
+              />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                FinFlow
+                BishwasPay
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Revolutionizing financial services with cutting-edge technology.
+              Trusted escrow payment platform built on transparency and security.
             </p>
           </div>
 
@@ -95,7 +97,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} FinFlow. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} BishwasPay. All rights reserved.</p>
         </div>
       </div>
     </footer>

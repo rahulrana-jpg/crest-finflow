@@ -1,0 +1,74 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Base (Trust & Security) -->
+  <path d="M60 15 L90 27 L90 55 C90 73 79 83 60 95 C41 83 30 73 30 55 L30 27 L60 15Z" 
+        fill="url(#shieldGradient)" 
+        stroke="url(#borderGradient)" 
+        stroke-width="2"/>
+  
+  <!-- Himalayan Mountain Peaks (Nepali Cultural Element) -->
+  <path d="M40 32 L48 43 L45 43 L52 32 L55 39 L58 32 L60 39 L62 32 L65 39 L68 32 L75 43 L72 43 L80 32" 
+        stroke="#E8F5E9" 
+        stroke-width="1.2" 
+        fill="none" 
+        opacity="0.5"/>
+  
+  <!-- Lock/Security Icon -->
+  <rect x="52" y="55" width="16" height="18" rx="1.5" fill="url(#lockGradient)"/>
+  <path d="M56 55 L56 48 C56 45.2 58.2 43 61 43 L59 43 C56.2 43 54 45.2 54 48 L54 55" 
+        stroke="#4CAF50" 
+        stroke-width="2" 
+        fill="none" 
+        stroke-linecap="round"/>
+  <circle cx="60" cy="63" r="2" fill="white"/>
+  <rect x="59" y="63" width="2" height="4" fill="white" rx="1"/>
+  
+  <!-- Digital Transaction Arrows -->
+  <g opacity="0.8">
+    <path d="M75 58 L86 58 L83 55 M86 58 L83 61" 
+          stroke="#4CAF50" 
+          stroke-width="1.8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+    
+    <path d="M63 76 L63 87 L66 84 M63 87 L60 84" 
+          stroke="#1976D2" 
+          stroke-width="1.8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+    
+    <path d="M45 62 L34 62 L37 65 M34 62 L37 59" 
+          stroke="#4CAF50" 
+          stroke-width="1.8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+    
+    <path d="M57 44 L57 33 L54 36 M57 33 L60 36" 
+          stroke="#1976D2" 
+          stroke-width="1.8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+  </g>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
